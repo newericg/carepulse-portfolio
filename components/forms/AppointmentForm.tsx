@@ -105,6 +105,7 @@ export const AppointmentForm = ({
           type,
         };
 
+        console.log(appointmentToUpdate)
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
 
         if (updatedAppointment) {
